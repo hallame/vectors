@@ -12,9 +12,9 @@ class Vector
 	static int count;
 	Vector (int d);
 	Vector (int d,double *x);
-	Vector(const Vector &);      //  copy constructor
-	Vector();                   // constructor
-	~Vector();                 // destructor
+	Vector(const Vector &);      
+	Vector();                   
+	~Vector();                
 
 	Vector (Vector &x);
 	void printb();
